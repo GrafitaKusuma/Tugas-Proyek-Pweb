@@ -1,0 +1,65 @@
+body{
+	font-family: arial; /* menentukan huruf */
+	background-image: url("2.jpeg"); /*bagian background web */
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center; /* kerataan text nya jenis center */
+	background-attachment: fixed;
+}
+
+input[type=text], select{
+	border: 1px  solid #ccc;
+	width: 50%;
+	border-radius: 5px;
+	border-width: 20%;
+	padding: 10px;
+	color: white;
+}
+
+input[type=submit]{
+	width: 20%;
+	background-color: #00BFFF;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #1E90FF; /*untuk menentukan warna background*/
+}
+
+.header{
+	background-color: #DCDCDC;
+	width: 100%;
+	padding: 60px;
+}
+
+.content{
+	background-color: black;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.75);
+}
+
+.frame{
+	background-color: #f1f1f1;
+}
+
+.footer{
+	background-color: blue;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	height: 200px; /*tinggi*/
+	width: 100%; /*lebar*/
+	text-align: center;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.75);
+}
